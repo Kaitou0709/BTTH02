@@ -1,0 +1,596 @@
+/*font all*/
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+
+}
+/*CSS menu*/
+#head
+{
+    width: 100% !important;
+    font-family: 'Archivo', sans-serif;
+}
+.navbar-brand img
+{
+    width: 244px;
+}
+.nav-link
+{
+text-transform: uppercase;
+font-weight: 600;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+/*CSS backgroup*/
+.backgroup-img
+{
+    width: 100%;
+    max-width: 100%;
+    display: inline;
+    cursor: pointer;
+}
+/*CSS introduce*/
+#introduce
+{
+    width: 100%;;
+    padding: 50px 0 50px 0;
+    display: block;
+}
+#introduce .introduce-inner
+{
+height: 80%;
+width: 80%;
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#introduce .introduce-inner .heading-introduce
+{
+    height: 50px;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+#introduce .introduce-inner .heading-introduce h2
+{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    color: #111633;
+}
+#introduce .introduce-inner .introduce-content
+{
+    width: 100%;
+}
+.introduce-inner .introduce-content .introduce-item>li
+{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    width: 100%;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+.introduce-inner .introduce-content .introduce-item>li .item-item>li
+{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 33px;
+    width: 100%;
+    display: list-item;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+/*CSS participation-course*/
+#participation-course
+{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0B249E 0%, #3395DB 100%);
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+#participation-course .participation-course-wrap
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col
+{
+    padding: 0 !important;
+}
+#participation-course .participation-course-wrap .participation-course-heading
+{
+    height: 55px;
+    margin: 0 0 20px 0;
+}
+.participation-course-heading h2{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.card-img-top
+{
+    margin-top: 20px ;
+    height: 259px !important;
+    width: 346px !important ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-body h3
+{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: center;
+}
+/*CSS reason*/
+#reason
+{
+    height: 651px;
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+#reason .reason-wrap
+{
+    height: 551px;
+    width: 85%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+#reason .reason-wrap .reason-img
+{
+    height: 528px ;
+    width: 50%;
+}
+#reason .reason-wrap .reason-img img
+{
+    height: 508px;
+    width: 99%;
+}
+#reason .reason-wrap .reason-content
+{
+    height: 528px;
+    width: 50%;
+    padding: 0 0 0 70px;
+}
+#reason .reason-wrap .reason-content h2
+{
+    height: 26px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    display: block;
+}
+#reason .reason-wrap .reason-content .reason-item
+{
+    height: 140px;
+    display: flex;
+    padding: 20px 0 0 8px;
+    box-sizing: border-box;
+}
+#reason .reason-wrap .reason-content .reason-item .logo
+{
+    line-height: 70px;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border: 2px solid #0B249E;
+    margin: 0 20px 0 0;
+    text-align: center;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all 0s ease 0s;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    box-shadow: rgba(11, 83, 255, 0.1) 0px 10px 30px 0px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius:50px;
+
+}
+#reason .reason-wrap .reason-content .reason-item:hover .logo
+{
+    background-color: rgb(11,36,158);
+    color: #FFFFFF;
+}
+#reason .reason-wrap .reason-content .reason-item .logo .fa-solid
+{
+    height: auto;
+    width: auto;
+    display: inline;
+    transform: none;
+    transition: all 0.4s ease 0s;
+    outline: rgb(255, 223, 223) dashed 0px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+#reason .reason-wrap .reason-content .reason-item .item
+{
+    display: block;
+    height: 120px;
+}
+#reason .reason-wrap .reason-content .reason-item .item h3
+{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    width: 356px;
+    margin: 0 0 20px 0;
+    display: block;
+}
+#reason .reason-wrap .reason-content .reason-item .item p
+{
+    width: 356px;
+    font-size: 15px;
+    font-weight: 500px;
+    line-height: 25px;
+    text-align: left;
+    display: block;
+}
+/* CSS after-course*/
+#after-course
+{
+    width: 100%;
+    padding: 0 0 96px 0;
+    box-sizing: border-box;
+}
+#after-course .after-course-wrap
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#after-course .after-course-wrap h2
+{
+    color: #0B249E;
+    width: 100%;
+    font-size: 30px;
+    font-size: 700;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+.after-course-wrap .justify-content-center .col-sm-3
+{
+    margin: 20px 40px 20px 40px;
+    padding: 20px;
+    border: 2px solid #000000;
+}
+.after-course-wrap .justify-content-center .col-sm-3 .logo
+{
+    display: block;
+    margin: 0 0 15px 0;
+    box-sizing: border-box;
+}
+.after-course-wrap .justify-content-center .col-sm-3 .fa-solid
+{
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+.after-course-wrap .justify-content-center .col-sm-3 .logo .fa-brands
+{
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+.after-course-wrap .justify-content-center .col-sm-3  p
+{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+}
+/*CSS register*/
+#register
+{
+    width: 100% ;
+    margin: 0 0 0;
+    padding: 60px 0 60px 0;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0C04AA 0%, #8637ED 100%);
+}
+#register .col-sm-5
+{
+    color: #FFFFFF;
+}
+#register .heading
+{
+    margin: 0 0 20px 0;
+}
+#register .heading h2
+{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+#register .heading h3
+{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFF604;
+    margin: 8px 0 16px 0;
+}
+#register .form-control
+{
+    color: #333333;
+}
+.register-content
+{
+    padding: 0 12px 0 12px;
+}
+#register .col-sm-5 ul
+{
+    padding: 16px;
+    margin: 0 0 20px 0;
+}
+#register .col-sm-5
+{
+line-height: 26px;
+font-weight: 500;
+}
+#register .col-sm-5 p
+{
+    margin: 0 0 20px 0;
+}
+/*content-course*/
+#content-course
+{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background: #F1F3F5;
+    box-sizing: border-box;
+}
+#content-course .content-course-heading
+{
+    height: 55px;
+    width: 80%;
+    margin: 0 0 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content-course .content-course-heading h2
+{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 0 20px 0;
+    
+}
+#content-course .justify-content-center .col-sm-4 p
+{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 0 0 20px 0;
+}
+#content-course .justify-content-center .col-sm-4 ul
+{
+    padding: 0 0 0 16px;
+}
+#content-course .justify-content-center .col-sm-4 li
+{
+
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: justify;
+    width: 100%;
+    list-style-type: disc;
+    display: list-item;
+}
+/*CSS for fee*/
+#fee
+{
+    width: 100%;
+    margin: 50px 0 0 0;
+
+}
+#fee .fee-wrap
+{
+    height: 90%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fee .fee-wrap .fee-heading
+{
+    height: 45px;
+    width: 100%;
+    margin: 0 0 20px 0;
+    display: block;
+}
+#fee .fee-wrap .fee-heading h2
+{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+}
+#fee .fee-wrap .fee-content 
+{
+    height: 80%;
+    border: 1px solid #0B249E;
+}
+#fee .fee-wrap .fee-content .fee-item
+{
+    width: 100%;
+}
+#fee .fee-wrap .fee-content .fee-item .heading th
+{
+    display: table-cell;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-collapse: collapse
+}
+#fee .fee-wrap .fee-content .fee-item .heading .module
+{
+    width: 35%;
+    display: table-cell;
+    padding: 10px;
+    box-sizing: border-box;
+    border-collapse: collapse
+}
+#fee .fee-wrap .fee-content .fee-item .heading th p
+{
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+    color: #0B249E;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+#fee .fee-wrap .fee-content .fee-item .item td
+{
+    display: table-cell;
+    padding: 10px;
+    box-sizing: border-box;
+    border-collapse: collapse
+}
+#fee .fee-wrap .fee-content .fee-item .item td p
+{
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+    color: #0B249E;
+    width: 100%;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+/*CSS partner*/
+#partner
+{
+    height: 386px;
+    width: 100%;
+    padding: 24px 0 60px 0;
+    box-sizing: border-box;
+}
+#partner .partner-wrap
+{
+    height: 282px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+}
+#partner .partner-wrap .partner-heading
+{
+    height: 57px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+}
+#partner .partner-wrap .partner-heading h2
+{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+#partner .partner-wrap .partner-content
+{
+    height: 170px;
+    padding: 0 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#partner .partner-wrap .partner-content .parter-img
+{
+    position: relative;
+    height: 170px;
+    width: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#partner .partner-wrap .partner-content .parter-img img
+{
+    position: relative;
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+}
+/*CSS footer*/
+#footer
+{
+    padding: 40px 0 50px 0;
+    background-color: rgb(47,49,158);
+}
+#footer .justify-content-center
+{
+    color: #FFFFFF;
+}
+#footer .justify-content-center a
+{
+    color: #FFFFFF;
+}
+#footer .justify-content-center .heading
+{
+    line-height: 27px;
+}
+#footer .justify-content-center .heading h2
+{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 0 8px 0;
+}
+#footer .justify-content-center .col-sm-3 .content
+{
+    padding: 0 0 10px 0;
+    display: flex;
+    align-items: center
+}
+#footer .justify-content-center .col-sm-3 .content a
+{
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 0 10px 6px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+}
+#footer .justify-content-center .col-sm-4 p
+{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+}
+#footer .justify-content-center .register
+{
+    margin: 0 0;
+}
+#footer .justify-content-center .register-heading
+{
+    margin: 0 0 20px 0;
+}
+#footer .justify-content-center .col-sm-4 .container
+{
+    padding: 0px;
+}

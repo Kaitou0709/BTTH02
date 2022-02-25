@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khoá học Lập Trình PHP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/khoahoc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <!--start head-->
+        <div id="head">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"><img src="../img/LOGO-APTECH-03-02-1.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Trang chủ</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          HANOI-APTECH
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Giới thiệu</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Cơ sở vật chất</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Giảng viên</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Hỏi đáp</a></li>
+                        </ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle active-here" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Chương trình đào tạo
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Lập trình viên quốc tế ADSE</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Lập Trình Web FullStack</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Các khoá học ngắn hạn
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Khoá quản trị mạng</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Lập trình java</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Lập trình .NET</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Lập trình C#</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Lập trình .NET</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Lập trình CSDL với SQL</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Liên thông</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Tin Tức
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Tin về công nghệ thông tin</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Tuyển sinh</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Tin về tuyển sinh</a></li>
+                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Liên thông</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Tuyển dụng
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Tin tuyển dụng</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Góc nghề nghiệp</a></li>
+                            </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <!--end head-->
+        <!--start backgroup-->
+        <div>
+            <img class='backgroup-img' src="../img/lap-trinh-.net_-1536x606.png" alt="">
+        </div>
+        <!--end backgroup-->
+        <!--start introduce-->
+        <div id="introduce">
+            <div class="introduce-inner">
+                <div class="heading-introduce">
+                    <h2>
+                        GIỚI THIỆU KHÓA HỌC LẬP TRÌNH PHP
+                    </h2>
+                </div>
+                <div class="introduce-content">
+                    <ul class="introduce-item">
+                        <li>Khóa học Lập trình PHP là chương trình đào tạo ngắn hạn chuyên biệt cho ngôn ngữ PHP.</li>
+                        <li>Đây là chương trình đào tạo của Aptech Ấn Độ, được giảng dạy bằng tiếng Việt.</li>
+                        <li>Cung cấp cho học viên kỹ năng thiết kế giao diện website một cách chuyên nghiệp Nâng cao kỹ
+                            năng phân tích, thiết kế, xây dựng ứng dụng trên nền tảng web với ngôn ngữ lập trình PHP.
+                        </li>
+                        <li>Chương trình cung cấp cho người học các kiến thức cơ bản của ngôn ngữ PHP. Sau khi kết thúc
+                            khóa học, học viên có đầy đủ kiến thức để có thể bắt đầu tham gia các dự án web PHP đơn giản
+                            hoặc có thể tiếp tục tìm hiểu những thành phần nâng cao, các framework của PHP như Laravel
+                            hoặc WordPress.</li>
+                        <li>Phương thức đào tạo hiện đại AMEDA (Aptech Multi-modal Education Delivery Architecture), bao
+                            gồm:
+                            <ul class="item-item">
+                                <li>Giờ lý thuyết</li>
+                                <li>Giờ thực hành</li>
+                                <li>Giờ làm việc theo nhóm</li>
+                            </ul>
+                        </li>
+                        <li>goài kiến thức chuyên môn, học viên còn được bổ sung các kiến thức để phát triển kỹ năng cá
+                            nhân, kỹ năng làm việc nhóm và năng lực quản lý dự án.</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <!--end introduce-->
+        <!--star participation the course-->
+        <div id="participation-course">
+            <div class="participation-course-wrap">
+                <div class="participation-course-heading">
+                    <h2>ĐỐI TƯỢNG THAM GIA KHÓA HỌC</h2>
+                </div>
+                <div class="row">
+                    <div class="col">
+                <div class="card" style="width: 381px;">
+                    <img src="../img/participation-course-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Sinh viên ngành CNTT hoặc yêu thích lập trình tại các trường đại học, cao đẳng.</h3>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col">
+                  <div class="card" style="width: 381px;">
+                    <img src="../img/participation-course-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Đang làm về CNTT, muốn bổ sung kiến thức & kỹ năng lập trình PHP.</h3>
+                  </div>
+                </div>
+                  </div>
+                  <div class="col">
+                  <div class="card" style="width: 381px;">
+                    <img src="../img/participation-course-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Cá nhân muốn biết thêm kiến thức mới, đang có ý định theo nghề lập trình.</h3>
+                    </div>
+                </div>
+                  </div>
+                </div>
+            </div>
+                  </div>
+        <!--end participation the course-->
+        <!--start reason-->
+        <div id="reason">
+            <div class="reason-wrap">
+                <div class="reason-img">
+                    <img src="../img/reason.png" alt="">
+                </div>
+                <div class="reason-content">
+                    <h2>3 LÝ DO HỌC LẬP TRÌNH PHP</h2>
+                    <div class="reason-item">
+                        <div class="logo">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </div>
+                        <div class="item">
+                            <h3>Sự "Thống trị" thị trường</h3>
+                            <p>80% trong số 10 triệu trang web hàng đầu sử dụng ngôn ngữ lập trình. PHP là ngôn ngữ lập
+                                trình được nhiều Developer lựa chọn.</p>
+                        </div>
+                    </div>
+                    <div class="reason-item">
+                        <div class="logo">
+                            <i class="fa-solid fa-cloud-arrow-down"></i>
+                        </div>
+                        <div class="item">
+                            <h3>
+                                Ngôn ngữ lập trình linh hoạt</h3>
+                            <p>PHP không bị ràng buộc bởi các quy tắc; nó giúp cho lập trình viên được tự do sáng tạo để
+                                xây dựng mọi thứ mình muốn.</p>
+                        </div>
+                    </div>
+                    <div class="reason-item">
+                        <div class="logo">
+                            <i class="fa-solid fa-gem"></i>
+                        </div>
+                        <div class="item">
+                            Cơ hội việc làm cao
+                            </h3>
+                            <p>Rất nhiều công ty chọn PHP làm ngôn ngữ phát triển website cho khách hàng cũng như sản
+                                phẩm của riêng họ.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end reason-->
+        <!--start after the course -->
+        <div id="after-course">
+            <div class="after-course-wrap">
+                <h2>SAU KHÓA HỌC BẠN ĐƯỢC GÌ?</h2>
+                <div class="row justify-content-center">
+                        <div class='col-sm-3'>
+                        <div class="logo"><i class="fa-solid fa-id-card"></i></div>
+                        <p>Học viên được cấp chứng chỉ khóa học Lập trình PHP kèm bảng điểm các môn theo học</p>
+                    </div>
+                    <div class='col-sm-3'>
+                        <div class="logo"><i class="fa-brands fa-php"></i></div>
+                        <p>Nâng cao kỹ năng phân tích và thiết ứng dụng trên nền tảng web với ngôn ngữ lập trình PHP</p>
+                    </div>
+                    <div class='col-sm-3'>
+                        <div class="logo"><i class="fa-solid fa-rocket"></i></div>
+                        <p>Hanoi- Aptech luôn cam kết đảm bảo chất lượng đầu ra. Giới thiệu việc làm cho học viên</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--end after the course -->
+        <!--start register-->
+        <div id="register">
+            <div class="row justify-content-center">
+                <div class="col-sm-5">
+                    <div class="heading">
+                    <h2>KHÓA HỌC LẬP TRÌNH PHP</h2>
+                    <h3>LẬP TRÌNH CHẤT - PHẤT TƯƠNG LAI</h3>
+                </div>
+                    <div class="container mt-3">
+                        <form action="#">
+                          <div class="mb-3 mt-3">
+                            <input type="name" class="form-control" id="name" value="Họ và Tên" name="name">
+                          </div>
+                          <div class="mb-3 mt-3">
+                            <input type="email" class="form-control" id="email" value="Email" name="email">
+                          </div>
+                          <div class="mb-3 mt-3">
+                            <input type="phone" class="form-control" id="phone" value="Số điện thoại" name="phone">
+                          </div>
+                          <div class="mb-3 mt-3">
+                            <input type="address" class="form-control" id="address" value="Địa chỉ" name="address">
+                          </div>
+                          <select class="form-select" id="sel1" name="sellist1">
+                            <option>Trình độ</option>
+                            <option>Học sinh</option>
+                            <option>Sinh viên</option>
+                            <option>Đi làm</option>
+                            <option>Khác</option>
+                          </select>
+                          <br><br>
+                          <div class='d-grid'>
+                          <button type="button" class="btn btn-primary btn-blockk "> Gửi đăng kí</button>
+                          </div>
+                        </form>
+                      </div>
+                </div>
+                <div class="col-sm-5 register-content">
+                    <ul>
+                        <li>Yêu cầu: HTML, JS, CSS, SQL</li>
+                        <li>Thời gian học: 64 giờ</li>
+                        <li>Khai giảng dự kiến: Tháng 2/2022</li>
+                    </ul>
+                    <p>Môn học yêu cầu một số kiến thức nền cơ bản, học viên có thể tự chủ động trang bị. Trường hợp hoàn toàn chưa có kiến thức cơ bản, khuyến cáo học viên nên đăng ký học trước một số khóa bổ sung: </p>
+                    <ul>
+                        <li>Khóa HTML1: Cơ bản về HTML, CSS, Javascript</li>
+                        <li>Khóa HTML2: Bootstrap, jQuery, AngularJS</li>
+                        <li>Khóa SQL: Ngôn ngữ truy vấn SQL với SQL server và MySQL</li>
+                    </ul>
+                    <p>Địa chỉ học: Tầng 1, Tòa nhà C5, Đại học Thủy Lợi, 175 Tây Sơn, Trung Liệt, Đống Đa, Hà Nội</p>
+                    <p>Đăng ký trực tuyến vào form dưới đây hoặc gọi điện đến hotline 0965 235 918 hoặc 0919.550.182 để được tư vấn trực tiếp</p>
+                </div>
+            </div>
+        </div>
+        <!--end register-->
+        <!--start content the course-->
+        <div id="content-course">
+            <div class="content-course-heading">
+                <h2>NỘI DUNG KHÓA HỌC</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="wrap">
+                    <p>Web Application Development using PHP</p>
+                    <ul>
+                        <li>Ngôn ngữ lập trình PHP</li>
+                        <li>Kiểu dữ liệu dạng số trong PHP</li>
+                        <li>Kiểu dữ liệu dạng chuỗi trong PHP (String)</li>
+                        <li>Kiểu dữ liệu dạng thời gian trong PHP (Date)</li>
+                        <li>Kiểu dữ liệu dạng mảng trong PHP (Array)</li>
+                        <li>Làm việc với hàm trong PHP (function)</li>
+                        <li>Làm việc với Cookie và Session trong PHP</li>
+                        <li>Các dạng toán tử trong PHP, phép toán quan hệ</li>
+                        <li>Câu lệnh điều kiện</li>
+                        <li>Xử lý form</li>
+                    </ul>
+                </div>
+            </div>
+                <div class="col-sm-4">
+                    <div class="wrap">
+                    <p>PHP Development with Laravel Framework</p>
+                    <ul>
+                        <li>Giới thiệu về Laravel Framework trong PHP</li>
+                        <li>Cấu trúc MVC trong Laravel Framework</li>
+                        <li>Lập trình PHP Laravel Framework kết nối SQL Server và xử lý dữ liệu</li>
+                        <li>Lập trình web bằng Laravel Framework</li>
+                        <li>Bảo mật cùng Laravel Framework</li>
+                    </ul>
+                </div>
+            </div>
+            
+    </div>
+    <!--end content the course-->
+    <!--start fee-->
+    <div id="fee">
+        <div class="fee-wrap">
+            <div class="fee-heading">
+                <h2>HỌC PHÍ</h2>
+            </div>
+            <div class="fee-content">
+                <table class="fee-item">
+                    <tr class="heading">
+                        <th class="module">
+                            <p>Module</p>
+                        </th>
+                        <th>
+                            <p>Học sinh</p>
+                        </th>
+                        <th>
+                            <p>Sinh viên</p>
+                        </th>
+                        <th>
+                            <p>Đối tượng khác</p>
+                        </th>
+                    </tr>
+                    <tr class="item">
+                        <td>
+                            <p>PHP + Project theo nhóm</p>
+                        </td>
+                        <td>
+                            <p>5.120.000 VNĐ</p>
+                        </td>
+                        <td>
+                            <p>4.800.000 VNĐ</p>
+                        </td>
+                        <td>
+                            <p>6.400.000 VNĐ</p>
+                        </td>
+                    </tr>
+                    <tr class="item">
+                        <td>
+                            <p>HTML5, CSS and Javascript (tùy chọn, học trước PHP)</p>
+                        </td>
+                        <td>
+                            <p>4.000.000 VNĐ</p>
+                        </td>
+                        <td>
+                            <p>3.750.000 VNĐ</p>
+                        </td>
+                        <td>
+                            <p>5.000.000 VNĐ</p>
+                        </td>
+                    </tr>
+                    <tr class="item">
+                        <td>
+                            <p>
+                                HTML5, CSS, Javascript , BootStrap and Jquery – 56 giờ (tùy chọn, học trước PHP)</p>
+                        </td>
+                        <td>
+                            <p>4.480.000 VNĐ</p>
+                        </td>
+                        <td>
+                            <p>4.200.000 VNĐ</p>
+                        </td>
+                        <td>
+                            <p>5.600.000 VNĐ</p>
+                        </td>
+                    </tr>
+                    <tr class="item">
+                        <td>
+                            <p>SQL (tùy chọn, học trước PHP)</p>
+                        </td>
+                        <td>
+                            <p>3.200.000 VNĐ</p>
+                        </td>
+                        <td>
+                            <p>3.000.000 VNĐ</p>
+                        </td>
+                        <td>
+                            <p>4.000.000 VNĐ</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!--end fee-->
+    <!--start partner-->
+    <div id="partner">
+        <div class="partner-wrap">
+            <div class="partner-heading">
+                <h2>ĐỐI TÁC CỦA HANOI - APTECH</h2>
+            </div>
+            <div class="partner-content">
+                <div class="parter-img"><img src="../img/partner-1.png" alt=""></div>
+                <div class="parter-img"><img src="../img/partner-2.jpg" alt=""></div>
+                <div class="parter-img"><img src="../img/partner-3.png" alt=""></div>
+                <div class="parter-img"><img src="../img/partner-4.svg" alt=""></div>
+                <div class="parter-img"><img src="../img/partner-5.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!--end partner-->
+    <!--start footer-->
+    <div id="footer">
+        <div class="row justify-content-center">
+            <div class="col-sm-3">
+                <div class="heading">
+              <h2>KHÓA HỌC SẮP KHAI GIẢNG</h2>
+            </div>
+              <div class="content">
+              <a href="#"><i class="fa-solid fa-caret-right"></i> Lập trình viên Quốc Tế</a>
+              </div>
+              <div  class="content">
+              <a href="#"><i class="fa-solid fa-caret-right"></i> Lập trình Web Full-Stack</a>
+              </div>
+              <div  class="content">
+              <a href="#"><i class="fa-solid fa-caret-right"></i> Khóa học Lập trình Java</a>
+              </div>
+              <div  class="content">
+              <a href="#"><i class="fa-solid fa-caret-right"></i> Khóa học Lập trình C#</a>
+            </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="heading"><h2>LIÊN HỆ</h2></div>
+              <p>Địa chỉ: Tầng 1, Tòa nhà C5, Đại học Thủy Lợi, 175 Tây Sơn, Trung Liệt, Đống Đa, Hà Nội</p>
+              <p>Tel: (024) 3563 7511</p>
+              <p>Hotline: 038 2020 858</p>
+              <p>Mail: info@aptech.vn</p>
+            </div>
+            <div class="col-sm-4 register">
+                <div class="heading register-heading">
+                    <h2>ĐĂNG KÝ TƯ VẤN</h2>
+                </div>
+            <div class="container mt-3">
+                <form action="#">
+                  <div class="mb-3 mt-3">
+                    <input type="name" class="form-control" id="name" value="Họ và Tên" name="name">
+                  </div>
+                  <div class="mb-3 mt-3">
+                    <input type="email" class="form-control" id="email" value="Email" name="email">
+                  </div>
+                  <div class="mb-3 mt-3">
+                    <input type="phone" class="form-control" id="phone" value="Số điện thoại" name="phone">
+                  </div>
+                  <select class="form-select" id="sel1" name="sellist1">
+                    <option>Trình độ</option>
+                    <option>Học sinh</option>
+                    <option>Sinh viên</option>
+                    <option>Đi làm</option>
+                    <option>Khác</option>
+                  </select>
+                  <br><br>
+                  <div class='d-grid'>
+                  <button type="button" class="btn btn-primary btn-blockk "> Gửi đăng kí</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+              </div>
+          </div>
+    </div>
+    <!--start footer-->
+    </div>
+</body>
+
+</html>
