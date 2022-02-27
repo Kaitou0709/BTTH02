@@ -18,10 +18,14 @@ body{
 text-transform: uppercase;
 font-weight: 600;
 }
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu{
     display: block;
     margin-top: 0; 
- }
+}
+.active-here
+{
+    color: #0000b5 !important;
+}
 /*CSS backgroup*/
 .backgroup-img
 {
